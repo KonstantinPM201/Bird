@@ -14,7 +14,7 @@ class Program
         float step=0.1f;
 
         string argumentsPath = Path.Combine("Arguments");
-        string resultsPath = Path.Combine("Results"); 
+        string resultsPath = Path.Combine("Results.log"); 
 
         float[] numbers = File.ReadAllLines(argumentsPath)
                              .Select(line => float.Parse(line))
